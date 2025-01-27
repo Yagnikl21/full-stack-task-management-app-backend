@@ -30,7 +30,7 @@ const orderSchema = new mongoose.Schema(
       default: 'Pending',
     },
   },
-  { timestamps: true } // Automatically add createdAt and updatedAt fields
+  { timestamps: true } 
 );
 
 module.exports = mongoose.model('Order', orderSchema);
